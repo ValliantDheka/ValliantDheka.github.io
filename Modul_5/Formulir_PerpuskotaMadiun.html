@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <h1>
+        <center>Formulir Perpustakaan</center>
+      </h1>
+      <label for="nik">NIK</label><br />
+      <input type="text" id="nik" name="nik" value="" />
+      <br /><br />
+
+      <label for="password">Password</label><br />
+      <input type="password" id="password" name="password" />
+      <br /><br />
+
+      <label for="nama">Nama</label><br />
+      <input type="text" id="nama" name="nama" value="" />
+
+      <p>Jenis Kelamin :</p>
+      <input type="radio" id="pria" name="jeniskelamin" value="pria" />
+      <label for="pria">Pria </label>
+      <input type="radio" id="wanita" name="jeniskelamin" value="wanita" />
+      <label for="wanita">Wanita</label>
+      
+      <p>Hobi :</p>
+      <input type="checkbox" id="hobi_baca" name="hobi_baca" />
+      <label for="hobi_baca">Membaca Buku</label>
+      <input type="checkbox" id="hobi_nulis" name="hobi_nulis" />
+      <label for="hobi_nulis">Olahraga</label>
+      <input type="checkbox" id="hobi_mancing" name="hobi_mancing" />
+      <label for="hobi_mancing">Memancing</label>
+
+      <p>Asal Kota :</p>
+      <select name="asal_kota">
+        <option value="Kota_Jakarta">Jakarta</option>
+        <option value="Kota_Bandung">Bandung</option>
+        <option value="Kota_Semarang">Semarang</option>
+      </select>
+
+      <p>Saran :</p>
+      <textarea name="komentar" id="komentar" cols="20" rows="5">Silahkan katakan isi hati anda</textarea>
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
