@@ -17,14 +17,14 @@
   color: var(--primary) !important;
 }
 
-/* Main conten */
+/* Main conten
 .btn-primary {
   background-color: var(--primary) !important;
   border-color: var(--primary) !important;
 }
 .btn-primary:hover {
   background-color: var(--primary-focus) !important;
-}
+} */
 
 /* footer */
 /* footer {

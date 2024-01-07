@@ -25,11 +25,13 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto gap-4 font-poppins" style="transform: translateY(10px)">
             <!-- gap untuk memberikan jarak antara isi navbar -->
-            <a class="nav-link active fw-medium" aria-current="page" href="#home">Home</a>
+            <!-- <a class="nav-link active fw-medium" aria-current="page" href="#home">Home</a> -->
             <!-- fw-medium ini font weight agar tidak terlalu tebal -->
+            <a class="nav-link" href="#maint">Home</a>
             <a class="nav-link" href="#about">About</a>
             <a class="nav-link" href="#product">Product</a>
             <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="login.php">Admin</a>
           </div>
         </div>
       </div>
